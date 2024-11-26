@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main(){
-    int MyNum1 = 15;
-    int MyNum2 = 10;
+    int n1,n2;
+    scanf("%d",&n1);
+    scanf("%d",&n2);
+    if (n1 > n2){
+        printf("n1 is more n2");
+    }else{
+        printf("n2 s more n1");
+    }
     
-    if (MyNum1 > MyNum2){
-    	printf("MyNum1 is greater than MyNum2");
-    }
-    else{
-    	printf("MyNum2 is greater than MyNum1");
-    }
 }
